@@ -1,0 +1,15 @@
+<button id="start-camera">Start Camera</button>
+<video id="video" width="1024" height="720" autoplay></video>
+<button id="click-photo">Click Photo</button>
+<canvas id="canvas" width="320" height="240"></canvas>
+
+<img id="image" style="width: 100%;"/>
+<script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+
+<script src="{{url_for('static', filename='lib/socket.io.js')}}" referrerpolicy="no-referrer"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/browser-image-compression@1.0.17/dist/browser-image-compression.js"></script>
+<script src="{{url_for('static', filename='capture.js')}}"></script>
+

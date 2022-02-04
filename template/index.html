@@ -1,0 +1,30 @@
+<div id="container" style="height: 1%;">
+    <!-- <canvas id="canvasOutput"></canvas> -->
+    <video autoplay="true" id="videoElement" style="display: none;"></video><canvas id="canvasOutput"></canvas>
+</div>
+
+<!--  -->
+
+<div class = 'video'>
+    <img id="image" style="
+    width: 100%;
+    height: 85%;">
+</div>
+
+<!-- <div class = 'preVid'>
+    <img id="preImg" style="
+    width: 100%;
+    height: auto;">
+</div> -->
+
+<div class="colorSec" style="bottom: 0%; position: fixed; height: 31px; border: 1px solid; width: 99%; margin-left: -2px; height: 19%; border-radius: 20px 20px 0 0; background: #FFFFFF;">
+    <div style="display: flex;     margin: 15% 15% 10% 30%;">
+        <div style="background: rgb(186, 0, 86); width: 100px; height: 100px; border-radius: 50px; margin: 20px;" onclick="onopencvReady([86, 0, 186])"></div>
+        <div style="background: rgb(246, 66, 76); width: 100px; height: 100px; border-radius: 50px; margin: 20px; "  onclick="onopencvReady([76, 66, 246])"></div>
+        <div style="background: rgb(245, 77, 120); width: 100px; height: 100px; border-radius: 50px; margin:20px; "  onclick="onopencvReady([120, 77, 245])"></div>
+    </div>
+</div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/browser-image-compression@1.0.17/dist/browser-image-compression.js"></script>
+<script src="{{url_for('static', filename='lib/jquery-3.5.1.js')}}"></script>
+<script src="{{url_for('static', filename='lib/socket.io.js')}}" referrerpolicy="no-referrer"></script>
+<script src="{{url_for('static', filename='service.js')}}"></script>
