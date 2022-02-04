@@ -1,0 +1,10 @@
+
+flask
+flask_cors
+flask_socketio
+pillow
+numpy
+opencv-python
+python-engineio
+imutils
+dlib
