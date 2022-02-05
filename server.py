@@ -29,6 +29,3 @@ def processing():
         mimetype='application/json'
     )
     return response
-
-
-# certs_dir = "/etc/letsencrypt/live/ar.dliticx.click/"
